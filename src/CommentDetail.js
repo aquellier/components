@@ -1,6 +1,4 @@
 import React from 'react';
-import faker from 'faker';
-
 
 const CommentDetail = props => {
   console.log(props);
@@ -10,7 +8,7 @@ const CommentDetail = props => {
         <img src={props.avatar} alt="avatar"/>
       </a>
       <div className="content">
-        <a href="" className="autor">
+        <a href="/" className="autor">
           {props.author}
         </a>
         <div className="metadata">
